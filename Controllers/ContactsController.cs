@@ -13,17 +13,17 @@ namespace BestStoreAPI.Controllers
     public class ContactsController : ControllerBase   // ekder et3aml wea al Requst and Respons API 
     {
         private readonly ApplicationDbContext _context;  // we call it Dependency Injection Field
-        private readonly EmailSender _emailsender;
+       
 
         //private readonly List<string> listSubject = new List<string>()
         //{
         //    "Order Status" , "Refound Requst" , "Job Application" , "Other"
 
         //};
-        public ContactsController(ApplicationDbContext context , EmailSender emailSender)
+        public ContactsController(ApplicationDbContext context )
         {
             _context = context;
-            _emailsender = emailSender;
+           
         }
 
        
@@ -93,7 +93,7 @@ namespace BestStoreAPI.Controllers
             string username = contactDto.FirstName + " " + contactDto.LastName;
             string emailMessage = "Dear" + username + "\n" + "we thank you to confirm the email .team support can help you";
             //EmailSender emailSender = new EmailSender();
-            _emailsender.SendEmail(emailsubject,contact.Email , username,emailMessage).Wait();
+            //_emailsender.SendEmail(emailsubject,contact.Email , username,emailMessage).Wait();
             return Ok(contact);
         }
 
