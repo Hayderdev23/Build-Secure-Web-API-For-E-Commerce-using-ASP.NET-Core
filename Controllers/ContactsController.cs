@@ -1,4 +1,4 @@
-﻿using BestStoreAPI.Dtos;
+using BestStoreAPI.Dtos;
 using BestStoreAPI.Models;
 using BestStoreAPI.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -89,9 +89,9 @@ namespace BestStoreAPI.Controllers
             _context.SaveChanges();
 
             // send confirmation 
-            string emailsubject = "Contact Confirmation";
-            string username = contactDto.FirstName + " " + contactDto.LastName;
-            string emailMessage = "Dear" + username + "\n" + "we thank you to confirm the email .team support can help you";
+            //string emailsubject = "Contact Confirmation";
+            //string username = contactDto.FirstName + " " + contactDto.LastName;
+            //string emailMessage = "Dear" + username + "\n" + "we thank you to confirm the email .team support can help you";
             //EmailSender emailSender = new EmailSender();
             //_emailsender.SendEmail(emailsubject,contact.Email , username,emailMessage).Wait();
             return Ok(contact);

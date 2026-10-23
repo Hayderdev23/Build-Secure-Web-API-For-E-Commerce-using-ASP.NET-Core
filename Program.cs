@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 
-builder.Services.AddScoped<EmailSender>();
+//builder.Services.AddScoped<EmailSender>();
 
 
 builder.Services.AddAuthentication(options =>

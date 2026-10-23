@@ -329,6 +329,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BestStoreAPI.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BestStoreAPI.Controllers.ProductsController",
     "Method": "CreateProduct",
     "RelativePath": "api/Products",

@@ -171,4 +171,5 @@ D:\project for treining\BestStoreAPI\BestStoreAPI\bin\Debug\net9.0\Scrutor.dll
 D:\project for treining\BestStoreAPI\BestStoreAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Filters.dll
 D:\project for treining\BestStoreAPI\BestStoreAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 D:\project for treining\BestStoreAPI\BestStoreAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\project for treining\BestStoreAPI\BestStoreAPI\obj\Debug\net9.0\BestStoreAPI.sourcelink.json
 D:\project for treining\BestStoreAPI\BestStoreAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
